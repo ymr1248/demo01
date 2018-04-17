@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.0"
+    defaultConfig {
+        applicationId "com.yongxing.activity.demo01"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:27.0.0'
+    //noinspection GradleCompatible
+    compile 'com.android.support:recyclerview-v7:27.0.0'
+    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.ashokvarma.android:bottom-navigation-bar:1.3.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    //视频播放依赖项
+    compile files('libs/pldroid-player-2.0.6.jar')
+    compile 'com.qiniu:happy-dns:0.2.+'
+    compile 'com.qiniu.pili:pili-android-qos:0.8.+'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.facebook.rebound:rebound:0.3.8'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.flyco.pageindicator:FlycoPageIndicator_Lib:1.0.0@aar'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'com.malinskiy:materialicons:1.0.2'
+    //滚马灯
+    compile 'com.gongwen:marqueelibrary:1.0.4'
+    //工具类
+    compile 'com.blankj:utilcode:1.5.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    // compile 'com.sunfusheng:marqueeview:1.2.0'
+    compile files('libs/musicg-1.4.2.0.jar')
+    //二维码
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'com.journeyapps:zxing-android-embedded:3.3.0'
+    implementation files('libs/MiPush_SDK_Client_3_6_1.jar')
+}

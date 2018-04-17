@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">长星监控</string>
+    <string name="drawer_layout_open">Open</string>
+    <string name="drawer_layout_close">Close</string>
+    <string name="blog_site">Blog:http://blog.csdn.net/student9128</string>
+    <string name="nick_name">Kevin</string>
+    <string name="tips">Hello</string>
+    <string name="navigation_navigation_bar">NavigationBar</string>
+    <string name="navigation_radio_bar">RadioGroup</string>
+    <string name="navigation_tab_layout">TabLayout + ViewPager</string>
+    <string name="navigation_tab_layout2">TabLayout + ViewPager 2</string>
+    <string name="navigation_text_tab">TextView + LinearLayout</string>
+    <string name="navigation_tab_host">TabHost</string>
+
+    <string name="item_home">设备</string>
+    <string name="item_location">视频</string>
+    <string name="item_like">配置</string>
+    <string name="item_person">我的</string>
+
+    <string name="persion_push">推送设置</string>
+    <string name="shopping_mall">物联商城</string>
+    <string name="persion_area">区域选择</string>
+    <string name="persion_operate">操作指导</string>
+    <string name="persion_pass_set">密码设置</string>
+    <string name="persion_about">关于我们</string>
+    <string name="persion_quit">退出</string>
+    <string name="company_name">长兴光电电器制造有限公司</string>
+    <string name="company_name_title">公司名称:</string>
+    <string name="comany_address">公司地址:</string>
+    <string name="comany_phone">联系方式:</string>
+    <string name="about_us">关于我们</string>
+    <string name="old_password">旧密码:</string>
+    <string name="new_passwoed">新密码:</string>
+    <string name="save_password">保存密码</string>
+    <string name="new_password_a">输入密码</string>
+    <string name="new_password_b">确认密码</string>
+    <string name="check_code_down">请输入验证码</string>
+
+    <string name="like_chuange">设备选择:</string>
+    <string name="like_net">网络设置</string>
+    <string name="like_time">时间设置</string>
+    <string name="like_video">录像设置</string>
+    <string name="like_alarm">报警设置</string>
+    <string name="like_ip">IP设置</string>
+    <string name="like_upgrade">设备升级</string>
+
+    <string name="username">昵称</string>
+    <string name="address">我的地址</string>
+    <string name="phone">联系电话</string>
+    <string name="dev_id">设备ID</string>
+    <string name="define">确定</string>
+
+    <string name="name">名称</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="arming">布放</string>
+    <string name="Screenshot">截图</string>
+    <string name="phone_change">通过手机修改</string>
+    <string name="email_change">通过邮箱修改</string>
+    <string name="click_to_get">点击获取</string>
+    <string name="check_code">验证码</string>
+    <string name="check_group">分组选择</string>
+    <string name="begin_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="storage">存储空间</string>
+    <string name="device_check">设备选择</string>
+
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="group">分组</string>
+    <string name="space_cloud">云空间</string>
+
+    <string name="common_problem">常见问题</string>
+    <string name="device_problem">设备连接问题</string>
+    <string name="space_cloud_detail">云空间详情</string>
+    <string name="other_problem">其他问题</string>
+    <string name="space_cloud_size">空间大小：1.36GB/8GB</string>
+    <string name="free_time">剩余免费时长:</string>
+    <string name="free_time_num">10天8小时</string>
+    <string name="join_ship">开通会员</string>
+
+    <string name="choose_time_long">选择开通时长</string>
+    <string name="one_month">一个月</string>
+    <string name="three_month">三个月</string>
+    <string name="six_month">六个月</string>
+    <string name="one_year">一年</string>
+    <string name="two_year">两年</string>
+    <string name="other_year">其他年</string>
+    <string name="SD_txt">标清</string>
+    <string name="ultra_clear_txt">超清</string>
+    <string name="amounts_payable">应付金额：</string>
+    <string name="protocol">同意《用户使用协议》</string>
+    <string name="settle_accounts">结算</string>
+
+    <string name="forget_password">忘记密码？</string>
+    <string name="regist_user">注册新用户</string>
+    <string name="remember_password">记住密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="phone_password_a">请输入手机号码</string>
+    <string name="seach_monitor">无筛选结果</string>
+
+</resources>

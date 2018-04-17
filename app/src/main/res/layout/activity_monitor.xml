@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background1"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <include layout="@layout/fragment_sub_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <com.pili.pldroid.player.widget.PLVideoTextureView
+            android:id="@+id/VideoView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/CoverView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/thumbnail"/>
+
+        <LinearLayout
+            android:id="@+id/LoadingView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:onClick="onClickRotate"
+                android:src="@drawable/ic_rotate_right" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:onClick="onClickSwitchScreen"
+                android:src="@drawable/ic_switch_screen" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/StatInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_gravity="top|left"
+            android:layout_margin="20dp" />
+
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/monitor_btn1"
+            android:text="@string/Screenshot"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/monitor_btn2"
+            android:text="@string/arming"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/monitor_btn3"
+            android:layout_weight="1"
+            android:text="@string/edit"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/monitor_btn4"
+            android:text="@string/delete"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.yongxing.activity.demo01.view.DeleteRecyclerView
+        android:id="@+id/monitor_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>
+
